@@ -34,6 +34,7 @@ Về `l1()` có thể thấy nó gọi 1 method khác có tên là `gf()`
 `gf()` sẽ gọi `gd()`, có thể thấy nó lấy chuỗi đầu tiên từ database tên calibri.
 
 ![](https://i.imgur.com/qNbJK6D.png)
+
 ![](https://i.imgur.com/qM7CObh.png)
 
 Tìm file `calibri.ttf`, đổi đuôi file thành `.db` và mở bằng SQLite ta có 2 chuỗi như sau:
