@@ -32,6 +32,7 @@ Về `l1()` có thể thấy nó gọi 1 method khác có tên là `gf()`
 ![](https://i.imgur.com/xRPyKTR.png)
 
 `gf()` sẽ gọi `gd()`, có thể thấy nó lấy chuỗi đầu tiên từ database tên calibri.
+
 ![](https://i.imgur.com/qNbJK6D.png)
 ![](https://i.imgur.com/qM7CObh.png)
 
