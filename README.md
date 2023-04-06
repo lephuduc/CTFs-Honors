@@ -1,3 +1,3 @@
 # UIT-Honors-challenge
 
-Write-ups for UIT Honor challenge
+Write-ups & codes for UIT Honor challenge
