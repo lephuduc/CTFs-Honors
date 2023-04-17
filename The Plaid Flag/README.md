@@ -163,5 +163,3 @@ def brute(start,p1,p2,p3,p4,goal):
                     print_chr(x,y,z)
 ```
 Do the same with the remaining characters we will get flag.
-
-Full script here:
