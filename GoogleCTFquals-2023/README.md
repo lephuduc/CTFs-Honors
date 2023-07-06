@@ -1,6 +1,19 @@
 # Google CTF 2023
+## Zermatt
+It's an obfuscated lua file. The goal is to deobfuscate it, and get the flag. But it's easy than.
+Directly compare flag with our input, so, just debug it, search for flag and get it.
+
+Flag: `CTF{At_least_it_was_not_a_bytecode_base_sandbox_escape}`
+
 
 ## Old School
+
+This is a keygen challenge, therefore we need to review the procedure and identify the proper key for each username.
+
+But as I was debugging it, I discovered a fairly simple anti-debug that was simple to patch and worked.
+
+The script is what I'm trying to use to utilize Qiling to simulate the KeyCheck() function, and the image below is the primary process of the key generation.
+I've also commented the code for convenient explanation.
 
 ![Untitled](Google%20CTF%202023%20039c5d35d478443ca21982dd536f3e4b/Untitled.png)
 
@@ -132,6 +145,7 @@ print('CTF{' + hashlib.sha1(b'|'.join(f'{u}:{p}'.encode('utf-8') for u, p in pai
 ```
 
 ## PNG2
+I completed this task after the contest had ended, therefore it stands as reference.
 
 [https://en.wikipedia.org/wiki/Hilbert_curve](https://en.wikipedia.org/wiki/Hilbert_curve)
 
