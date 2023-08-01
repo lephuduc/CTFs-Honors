@@ -1,6 +1,6 @@
 # CORCTF 2023
 
-There are 3 reverse challenges that I have done, I think that easy at all, so I'm just getting these file here.
+There are 3 reverse challenges that I have done, I think that easy at all, so I'm just pushing these file here.
 
 ## Generic Baby reverse
 
