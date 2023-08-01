@@ -10,7 +10,7 @@ Here is solver one: https://www.peter.com.au/projects/nonograms.html
 
 I used extract.py to extract rows, and cols. Then hints.py convert them to input which can use on Solver. 
 
-After that, get the result and write on a file, using pwn-tools to write these bytes to binary and get flag:
+After that, get the result and write on a file, using pwn-tools to write these bytes to binary and get flag
 
 ## Utterly deranged
 
