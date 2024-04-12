@@ -1,0 +1,494 @@
+Module(
+    body=[
+        Assign(
+            targets=[
+                Name(id='_var0', ctx=Store())],
+            value=Call(
+                func=Name(id='input', ctx=Load()),
+                args=[
+                    Constant(value='FLAG> ')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var1', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='_var0', ctx=Load()),
+                    Constant(value='encode')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var2', ctx=Store())],
+            value=Call(
+                func=Name(id='_var1', ctx=Load()),
+                args=[],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var3', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='dict', ctx=Load()),
+                    Constant(value='get')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var4', ctx=Store())],
+            value=Call(
+                func=Name(id='globals', ctx=Load()),
+                args=[],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var5', ctx=Store())],
+            value=Call(
+                func=Name(id='_var3', ctx=Load()),
+                args=[
+                    Name(id='_var4', ctx=Load()),
+                    Constant(value='f')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var6', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='_var5', ctx=Load()),
+                    Constant(value='seek')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var7', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='int', ctx=Load()),
+                    Constant(value='__add__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var8', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='int', ctx=Load()),
+                    Constant(value='__mul__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var9', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='int', ctx=Load()),
+                    Constant(value='__eq__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var10', ctx=Store())],
+            value=Call(
+                func=Name(id='len', ctx=Load()),
+                args=[
+                    Name(id='_var2', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var11', ctx=Store())],
+            value=Call(
+                func=Name(id='_var9', ctx=Load()),
+                args=[
+                    Name(id='_var10', ctx=Load()),
+                    Constant(value=64)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var12', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Name(id='_var11', ctx=Load()),
+                    Constant(value=261)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var13', ctx=Store())],
+            value=Call(
+                func=Name(id='_var6', ctx=Load()),
+                args=[
+                    Name(id='_var12', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var14', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='_var2', ctx=Load()),
+                    Constant(value='__getitem__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var15', ctx=Store())],
+            value=Call(
+                func=Name(id='_var14', ctx=Load()),
+                args=[
+                    Constant(value=0)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var16', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='_var15', ctx=Load()),
+                    Constant(value='__le__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var17', ctx=Store())],
+            value=Call(
+                func=Name(id='_var16', ctx=Load()),
+                args=[
+                    Constant(value=127)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var18', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Name(id='_var17', ctx=Load()),
+                    Constant(value=330)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var19', ctx=Store())],
+            value=Call(
+                func=Name(id='_var6', ctx=Load()),
+                args=[
+                    Name(id='_var18', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var20', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Constant(value=0),
+                    Constant(value=1)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var21', ctx=Store())],
+            value=Call(
+                func=Name(id='_var9', ctx=Load()),
+                args=[
+                    Name(id='_var20', ctx=Load()),
+                    Constant(value=64)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var22', ctx=Store())],
+            value=Call(
+                func=Name(id='_var8', ctx=Load()),
+                args=[
+                    Name(id='_var21', ctx=Load()),
+                    Constant(value=85)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var23', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Name(id='_var22', ctx=Load()),
+                    Constant(value=290)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var24', ctx=Store())],
+            value=Call(
+                func=Name(id='_var6', ctx=Load()),
+                args=[
+                    Name(id='_var23', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var25', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    List(elts=[], ctx=Load()),
+                    Constant(value='append')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var26', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    List(elts=[], ctx=Load()),
+                    Constant(value='__getitem__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var27', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='int', ctx=Load()),
+                    Constant(value='from_bytes')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var28', ctx=Store())],
+            value=Call(
+                func=Name(id='_var8', ctx=Load()),
+                args=[
+                    Constant(value=0),
+                    Constant(value=8)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var29', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Constant(value=0),
+                    Constant(value=1)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var30', ctx=Store())],
+            value=Call(
+                func=Name(id='_var8', ctx=Load()),
+                args=[
+                    Name(id='_var29', ctx=Load()),
+                    Constant(value=8)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var31', ctx=Store())],
+            value=Call(
+                func=Name(id='slice', ctx=Load()),
+                args=[
+                    Name(id='_var28', ctx=Load()),
+                    Name(id='_var30', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var32', ctx=Store())],
+            value=Call(
+                func=Name(id='_var14', ctx=Load()),
+                args=[
+                    Name(id='_var31', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var33', ctx=Store())],
+            value=Call(
+                func=Name(id='_var27', ctx=Load()),
+                args=[
+                    Name(id='_var32', ctx=Load()),
+                    Constant(value='little')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var34', ctx=Store())],
+            value=Call(
+                func=Name(id='_var25', ctx=Load()),
+                args=[
+                    Name(id='_var33', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var35', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Constant(value=0),
+                    Constant(value=1)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var36', ctx=Store())],
+            value=Call(
+                func=Name(id='_var9', ctx=Load()),
+                args=[
+                    Name(id='_var35', ctx=Load()),
+                    Constant(value=8)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var37', ctx=Store())],
+            value=Call(
+                func=Name(id='_var8', ctx=Load()),
+                args=[
+                    Name(id='_var36', ctx=Load()),
+                    Constant(value=119)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var38', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Name(id='_var37', ctx=Load()),
+                    Constant(value=457)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var39', ctx=Store())],
+            value=Call(
+                func=Name(id='_var6', ctx=Load()),
+                args=[
+                    Name(id='_var38', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var40', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    List(elts=[], ctx=Load()),
+                    Constant(value='append')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var41', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    List(elts=[], ctx=Load()),
+                    Constant(value='__getitem__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var42', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    Name(id='int', ctx=Load()),
+                    Constant(value='__xor__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var43', ctx=Store())],
+            value=Call(
+                func=Name(id='_var26', ctx=Load()),
+                args=[
+                    Constant(value=0)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var44', ctx=Store())],
+            value=Call(
+                func=Name(id='_var42', ctx=Load()),
+                args=[
+                    Name(id='_var43', ctx=Load()),
+                    Constant(value=1244422970072434993)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var45', ctx=Store())],
+            value=Call(
+                func=Name(id='pow', ctx=Load()),
+                args=[
+                    Name(id='_var44', ctx=Load()),
+                    Constant(value=65537),
+                    Constant(value=18446744073709551557)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var46', ctx=Store())],
+            value=Call(
+                func=Name(id='_var40', ctx=Load()),
+                args=[
+                    Name(id='_var45', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var47', ctx=Store())],
+            value=Call(
+                func=Name(id='_var41', ctx=Load()),
+                args=[
+                    Constant(value=0)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var48', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Constant(value=0),
+                    Constant(value=1)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var49', ctx=Store())],
+            value=Call(
+                func=Name(id='_var9', ctx=Load()),
+                args=[
+                    Name(id='_var48', ctx=Load()),
+                    Constant(value=8)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var50', ctx=Store())],
+            value=Call(
+                func=Name(id='_var8', ctx=Load()),
+                args=[
+                    Name(id='_var49', ctx=Load()),
+                    Constant(value=131)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var51', ctx=Store())],
+            value=Call(
+                func=Name(id='_var7', ctx=Load()),
+                args=[
+                    Name(id='_var50', ctx=Load()),
+                    Constant(value=679)],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var52', ctx=Store())],
+            value=Call(
+                func=Name(id='_var6', ctx=Load()),
+                args=[
+                    Name(id='_var51', ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var53', ctx=Store())],
+            value=Call(
+                func=Name(id='getattr', ctx=Load()),
+                args=[
+                    List(elts=[], ctx=Load()),
+                    Constant(value='__eq__')],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='_var54', ctx=Store())],
+            value=Call(
+                func=Name(id='_var53', ctx=Load()),
+                args=[
+                    List(
+                        elts=[
+                            Constant(value=8215359690687096682),
+                            Constant(value=1862662588367509514),
+                            Constant(value=8350772864914849965),
+                            Constant(value=11616510986494699232),
+                            Constant(value=3711648467207374797),
+                            Constant(value=9722127090168848805),
+                            Constant(value=16780197523811627561),
+                            Constant(value=18138828537077112905)],
+                        ctx=Load())],
+                keywords=[])),
+        Assign(
+            targets=[
+                Name(id='result', ctx=Store())],
+            value=Name(id='_var54', ctx=Load()))],
+    type_ignores=[])

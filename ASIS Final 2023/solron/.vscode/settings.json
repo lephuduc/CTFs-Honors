@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "time.h": "c",
+        "stdint.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "bitset": "cpp",
+        "xstring": "cpp"
+    }
+}
