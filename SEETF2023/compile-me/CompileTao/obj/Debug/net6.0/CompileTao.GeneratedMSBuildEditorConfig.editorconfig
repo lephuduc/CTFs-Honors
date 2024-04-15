@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CompileTao
-build_property.ProjectDir = D:\CTF\SEETF2023\compile-me\CompileTao\
+build_property.ProjectDir = d:\Download\Git repos\CTFs-Honors\SEETF2023\compile-me\CompileTao\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
