@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompileTao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11d6a889f01b453a113a1a9bd8778dfaa4391d7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea7ccc54ae9e7ee6a71fa776d89bb4b6da7abbb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompileTao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompileTao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
