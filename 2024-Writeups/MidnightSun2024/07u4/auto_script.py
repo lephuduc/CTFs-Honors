@@ -1,6 +1,6 @@
 from pwn import *
 from gzip import decompress
-from test import solve
+from solve_binary import solve
 io = remote('07u4-1.play.hfsc.tf', 3991)
 
 io.recvuntil(b'Play\n')

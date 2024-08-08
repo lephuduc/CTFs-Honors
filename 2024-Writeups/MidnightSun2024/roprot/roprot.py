@@ -23,9 +23,9 @@ def check(seed):
     try:
         print(subprocess.check_output(['./roprot_new','0123-5678-ABCD-EFGH']))
         print(f'seed {seed} good.')
-        exit()
+        exit(0)
     except Exception as e:
-        print(f'seed {seed} check fail.')
+        print(f'seed {seed} fail.')
         pass
 
 md = Cs(CS_ARCH_X86, CS_MODE_64)
@@ -33,7 +33,8 @@ md.detail = False
 possible_seed = []
 
 counter = 0
-for seed in seeds:
+for seed in seeds[31599:]:
+    print('cac')
     idx1 = 1355
     libc.srand(seed)
     buf = b''
@@ -45,12 +46,12 @@ for seed in seeds:
     
     # check1
     disassembled = {}
-    for i in md.disasm(buf[idx1:idx1+16],0):
+    for i in md.disasm(buf[idx1:idx1+4],0):
         disassembled[i.mnemonic] = i.op_str
     # check 2
     disassembled2 = {}
     idx2 = 586
-    for i in md.disasm(buf[idx2:idx2+16],0):
+    for i in md.disasm(buf[idx2:idx2+4],0):
         disassembled2[i.mnemonic] = i.op_str
     
     # final check
